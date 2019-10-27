@@ -1185,6 +1185,12 @@ section.lazy-placeholder:after {
 }
 .cid-rEJUKTR35R .card-title {
   text-align: center;
+  color: #cc2952;
+}
+.cid-rEJUKTR35R .mbr-text,
+.cid-rEJUKTR35R .mbr-section-btn {
+  color: #232323;
+  text-align: center;
 }
 .cid-rEJeWEUvNN {
   padding-top: 45px;
