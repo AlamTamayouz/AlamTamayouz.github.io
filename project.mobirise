@@ -698,11 +698,12 @@
               }
             },
             ".mbr-gallery-item > div > span": {
-              "color": "#f9f295"
+              "color": "#f9f295",
+              "text-align": "center"
             }
           },
           "_name": "gallery2",
-          "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders & Gallery\" plugins=\"Masonry,BootstrapCarouselSwipe,Gallery,VimeoPlayer,SliderVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"3\" inline>\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" inline>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#554346\">\n        <input type=\"checkbox\" title=\"Gradient Overlay\" name=\"gradOverlay\" checked>\n        <input type=\"color\" title=\"Overlay Color 2\" name=\"overlayColor2\" value=\"#45505b\" condition=\"gradOverlay\">\n        <input type=\"range\" title=\"Overlay Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" inline>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n\n        <input type=\"gallery\" title=\"Gallery\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-gallery=\"gallery\" mbr-gallery-spacing=\"2\" mbr-gallery-show-bullets mbr-gallery-show-text mbr-gallery-show-filter></div>\n    </div>\n\n</section>",
+          "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders & Gallery\" plugins=\"Masonry,BootstrapCarouselSwipe,Gallery,VimeoPlayer,SliderVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"1\" inline>\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"3\" inline>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#554346\">\n        <input type=\"checkbox\" title=\"Gradient Overlay\" name=\"gradOverlay\" checked>\n        <input type=\"color\" title=\"Overlay Color 2\" name=\"overlayColor2\" value=\"#45505b\" condition=\"gradOverlay\">\n        <input type=\"range\" title=\"Overlay Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.9\" inline>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n\n        <input type=\"gallery\" title=\"Gallery\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-gallery=\"gallery\" mbr-gallery-spacing=\"1\" mbr-gallery-show-bullets mbr-gallery-show-text mbr-gallery-show-filter></div>\n    </div>\n\n</section>",
           "_cid": "rEJeWEUvNN",
           "_anchor": "gallery2-j",
           "_protectedParams": [
@@ -719,20 +720,33 @@
             "gallery__filtersBtnStyle": "btn-primary-outline",
             "gallery": [
               {
-                "tags": "الإحترافية",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2019912_2335382019-9-0_2-10-32.jpg",
+                "tags": "المنطقة الشرقية",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=lQbP7wud11o",
-                "image": "@PROJECT_PATH@/assets/images/project-7-560x640.png",
-                "thumb": "@PROJECT_PATH@/assets/images/project-7-560x640-560x640.png",
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/project-8-560x640.png",
+                "thumb": "@PROJECT_PATH@/assets/images/project-8-560x640-560x640.png",
                 "alt": "",
                 "title": "",
-                "customStyle1": "display-5",
-                "caption": "&nbsp;بناء المركز الرئيسي لشركة الأساسية في مدينة الخبر",
+                "customStyle1": "display-7",
+                "caption": "بناء المركز الرئيسي لشركة الأساسية في مدينة الخبر",
+                "active": true
+              },
+              {
+                "tags": "المنطقة الشرقية",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/zomrod-980x606.png",
+                "thumb": "@PROJECT_PATH@/assets/images/zomrod-980x606-800x482.png",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "&nbsp;بناء مسجد الزمرد في مدينة الخبر",
                 "active": false
               },
               {
-                "tags": "التنظيم",
+                "tags": "المنطقة الغربية",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -741,16 +755,16 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "بناء فرع شركة الأساسية في مدينة جدة",
+                "caption": "بناء فرع الشركة الأساسية في مدينة جدة",
                 "active": false
               },
               {
-                "tags": "الإبداع",
+                "tags": "المنطقة الغربية",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/project8-547x551.png",
-                "thumb": "@PROJECT_PATH@/assets/images/project8-547x551-547x551.png",
+                "image": "@PROJECT_PATH@/assets/images/project8-1-547x551.png",
+                "thumb": "@PROJECT_PATH@/assets/images/project8-1-547x551-547x551.png",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
@@ -758,20 +772,7 @@
                 "active": false
               },
               {
-                "tags": "التخطيط",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/project11-550x529.png",
-                "thumb": "@PROJECT_PATH@/assets/images/project11-550x529-550x529.png",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "بناء شاليهات الزمردة في مدينة الخبر",
-                "active": false
-              },
-              {
-                "tags": "التنفيذ",
+                "tags": "المنطقة الشرقية",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -784,7 +785,7 @@
                 "active": false
               },
               {
-                "tags": "التنظيم",
+                "tags": "المنطقة الشرقية",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -793,11 +794,24 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": " بناء فلل السيف في مدينة الدمام",
-                "active": true
+                "caption": "بناء فلل السيف في مدينة الدمام",
+                "active": false
               },
               {
-                "tags": "التنفيذ",
+                "tags": "المنطقة الشرقية",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/asasyah-1-802x496.png",
+                "thumb": "@PROJECT_PATH@/assets/images/asasyah-1-802x496-800x495.png",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "&nbsp; إنشاء مقر شركة الأساسية بمدينة الأحساء",
+                "active": false
+              },
+              {
+                "tags": "المنطقة الشرقية",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -807,19 +821,6 @@
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "مشروع بناء القصر في مدينة الخبر",
-                "active": false
-              },
-              {
-                "tags": "الإبداع",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/zomrod-980x606.png",
-                "thumb": "@PROJECT_PATH@/assets/images/zomrod-980x606-800x482.png",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "&nbsp;بناء مسجد الزمرد في مدينة الخبر",
                 "active": false
               }
             ]
